@@ -59,8 +59,7 @@ public class Estudiante extends JFrame {
         REGISTRARDOCENTEButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Docente formularioDocente = new Docente();
-                formularioDocente .setVisible(true);
+                new Docente();
                 dispose();
             }
         });
